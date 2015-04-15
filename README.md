@@ -13,7 +13,7 @@ git clone https://github.com/overlandandseas/minimaljekyllbootstrap.git
 Then run **jekyll s** to start a development WEBrick server and begin making your own static site. Start by editing *_config.yml* with all the information that pertains to your site: title, description, and such.
 
 ##Layout
-The layout assumes very little about your site. If you do not wish to have a "blog" then remove *posts.html*. Do add more pages just make new .md or .html files in the pages folder and include the proper heading:
+The layout assumes very little about your site. If you do not wish to have a "blog" then remove *posts.html*. To add more pages just make new .md or .html files in the pages folder and include the proper heading:
 ```
 ---
 layout: page
