@@ -8,3 +8,5 @@ categories: jekyll update
 This is a blank post.
 
 SON.
+
+This is to show how you would add another post.
