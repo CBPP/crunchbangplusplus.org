@@ -25,4 +25,4 @@ This will ensure the page is generated correctly and will automatically be popul
 The css and everything else is also stored in the assets folder. You will need to add correct paths to *head.html* if you wish to add any more additional stylesheets or javascript files.
 
 ##License
-[Jekyll](https://github.com/jekyll/jekyll/blob/master/LICENSE) and [Boottrap](https://github.com/twbs/bootstrap/blob/master/LICENSE) are both MIT licensed however this specific repo is [WTFPL](../blob/master/LICENSE). 
+[Jekyll](https://github.com/jekyll/jekyll/blob/master/LICENSE) and [Boottrap](https://github.com/twbs/bootstrap/blob/master/LICENSE) are both MIT licensed however this specific repo is [WTFPL](../master/LICENSE). 
