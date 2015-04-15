@@ -8,7 +8,7 @@ Bootstrap is a css library/framework that is designed with mobile and responsive
 ##Install
 To Install, simply clone this repo using
 ```
-git clone https://github.com/Overlandandseas/minimaljekyllbootstrap.git
+git clone https://github.com/overlandandseas/minimaljekyllbootstrap.git
 ```
 Then run **jekyll s** to start a development WEBrick server and begin making your own static site. Start by editing *_config.yml* with all the information that pertains to your site: title, description, and such.
 
@@ -25,4 +25,4 @@ This will ensure the page is generated correctly and will automatically be popul
 The css and everything else is also stored in the assets folder. You will need to add correct paths to *head.html* if you wish to add any more additional stylesheets or javascript files.
 
 ##License
-[Jekyll](https://github.com/jekyll/jekyll/blob/master/LICENSE) and [Boottrap](https://github.com/twbs/bootstrap/blob/master/LICENSE) are both MIT licensed however this specific repo is [WTFPL](../master/LICENSE). 
+[Jekyll](https://github.com/jekyll/jekyll/blob/master/LICENSE) and [Boottrap](https://github.com/twbs/bootstrap/blob/master/LICENSE) are both MIT licensed however this specific repo is [WTFPL](../master/LICENSE).
