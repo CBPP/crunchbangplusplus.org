@@ -5,14 +5,80 @@
 
 //PUT YOUR SHIT IN HERE
 
-body{
-  background: #f8f8f8;
-  color: #262626;
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700);
+body {
+  background: #262626;
+  font-family: 'Roboto Slab', serif;
+  // font-weight: 100;
 }
-#content{
-  
+h1, h3, p, ul{
+  color: #ccc;
+}
+h4{
+  color: #444;
+}
+.navbar-inverse{
+  background:rgba(20,20,20,0.4);
+  border-bottom: 1px solid #000;
+  li:hover{
+    background:rgba(40,40,40,0.6);
+  }
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
+  background:rgba(20,20,20,0.7);
 }
 
-.navbar-default .navbar-nav li a:hover {
-  background: #ededed;
+h3{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+#content{
+  background:rgba(30,30,30,.7);
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  a{
+    color: #a9a9a9;
+    text-decoration: underline;
+  }
+  a:hover{
+    color: #fff;
+  }
+  .btn{
+    color: #666;
+  }
+
+}
+
+.align-right{
+  text-align: right;
+}
+.align-middle{
+  text-align: center;
+}
+
+.footer{
+  p{
+    font-size: 0.8em;
+    color: #999;
+    a{
+      color: #fff;
+    }
+  }
+  img{
+    max-width:150px;
+    max-height: 75px;
+  }
+}
+#myCarousel{
+  width: 85%;
+  margin: 15px auto;
+}
+.center-content {
+  text-align: center;
+  // font-family: 'Roboto Slab', serif;
 }

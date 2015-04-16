@@ -1,19 +1,21 @@
 ---
 layout: page
-title: Posts
-permalink: /posts/
+title: News
+permalink: /news/
 ---
 
-<ul class="post-list">
+<!-- <ul class="post-list"> -->
   {% for post in site.posts %}
-    <li>
-      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-      <h4>
+    <!-- <li> -->
+<p><strong>{{ post.date | date: "%b %-d, %Y" }} - {{ post.title }}</strong></p>
+<p class="post">
+  {{post.content}}
+</p>
+      <!-- <h4>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </h4>
-    </li>
+      </h4> -->
+    <!-- </li> -->
   {% endfor %}
-</ul>
+<!-- </ul> -->
 
 <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
