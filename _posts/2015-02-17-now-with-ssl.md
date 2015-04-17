@@ -14,7 +14,8 @@ original #!. There has been some community concern expressed that the project's
 name encroaches upon the original and that our teaser banner might be found
 offensive.  
 
-Corenominal responded:  
+Corenominal responded:
+
 >*I think there has been some confusion somewhere, I love the image and
   I have no problem with you using the CrunchBang++ name. I wish you all
   the best with the project and I hope it's a huge success for you.  
