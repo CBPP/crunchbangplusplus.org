@@ -1,7 +1,7 @@
 ---
 ---
 //run crunch stuff.
-(function($, noisy){
+
   $(document).ready(function() {
     $('body').noisy({
       'intensity' : 1,
@@ -11,4 +11,3 @@
       'monochrome' : true
     }).css('background-color', '#262626');
   });
-});

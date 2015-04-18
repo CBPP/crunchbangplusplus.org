@@ -14,3 +14,6 @@ Keep in mind, as the distro is currently based off of the Debian netinst, an int
 
 ####BETA IS 32-BIT
 64-bit release will be available **very soon**.
+
+[CBPP.torrent](/assets/misc/CBPP_beta_02132015.torrent)  
+[Github](https://github.com/CBPP)
