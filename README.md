@@ -26,4 +26,4 @@ After this has been created run **jekyll build** in the current directory and yo
 *Be sure to save your changes back to github*!
 ##LICENSE
 
-This site along with #!++ itself are [licensed](../blob/master/LICENSE) with WTFPL. However many of the technologies used on this site contain different licenses such as MIT.
+This site along with #!++ itself are [licensed](../master/LICENSE) with WTFPL. However many of the technologies used on this site contain different licenses such as MIT.
