@@ -15,6 +15,4 @@ should the community develop and warrant it.
 If donation amounts start to exceed CBPP's server costs, we will be donating whatever extra to Debian.
 
 **Flattr**  
-<script id="fb85056">
-  (function(i){var f,s=document.getElementById(i);f=document.createElement('iframe');f.src='//api.flattr.com/button/view/?uid=computermouth&url='+encodeURIComponent(document.URL);f.title='Flattr';f.height=62;f.width=55;f.style.borderWidth=0;s.parentNode.insertBefore(f,s);})('fb85056');
-</script>
+<script id='fbtejss'>(function(i){var f,s=document.getElementById(i);f=document.createElement('iframe');f.src='//api.flattr.com/button/view/?uid=computermouth&url='+encodeURIComponent(document.URL);f.title='Flattr';f.height=62;f.width=55;f.style.borderWidth=0;s.parentNode.insertBefore(f,s);})('fbtejss');</script>
