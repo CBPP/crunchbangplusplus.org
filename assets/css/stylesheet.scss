@@ -96,3 +96,14 @@ h1{
   width: 465px;
   margin: 0 auto;
 }
+#postcontent{
+
+  padding: 0 15px;
+  font-size: .9em;
+  blockquote{
+    font-size: .97em;
+    width: 70%;
+    border-left: 2px solid #fff;
+  }
+  // font-weight: 100;
+}

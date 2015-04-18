@@ -8,9 +8,9 @@ permalink: /news/
   {% for post in site.posts %}
     <!-- <li> -->
 <p><strong>{{ post.date | date: "%b %-d, %Y" }} - {{ post.title }}</strong></p>
-<p class="postcontent">
+<div id="postcontent">
   {{post.content}}
-</p>
+</div>
       <!-- <h4>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </h4> -->
