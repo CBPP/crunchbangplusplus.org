@@ -34,6 +34,9 @@ h4{
   li:hover{
     background:rgba(40,40,40,0.6);
   }
+  // -moz-box-shadow: 4px 4px 10px -5px #000000;
+  // -webkit-box-shadow: 4px 4px 10px -5px #000000;
+  // box-shadow: 4px 4px 10px -5px #000000;
 }
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
   background:rgba(20,20,20,0.7);
@@ -60,6 +63,9 @@ h1{
   .btn{
     color: #666;
   }
+  -moz-box-shadow: 4px 4px 10px -5px #000000;
+  -webkit-box-shadow: 4px 4px 10px -5px #000000;
+  box-shadow: 4px 4px 10px -5px #000000;
 
 }
 
