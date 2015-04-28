@@ -24,6 +24,5 @@ categories: cbpp update
 Below this use [markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to compose your post.
 After this has been created run **jekyll build** in the current directory and your update will live.  
 *Be sure to save your changes back to github*!
-##LICENSE
-
+##LICENSE  
 This site along with #!++ itself are [licensed](../master/LICENSE) with WTFPL. However many of the technologies used on this site contain different licenses such as MIT.
