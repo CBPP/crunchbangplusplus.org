@@ -1,3 +1,5 @@
+<div class="container-fluid above-navbar">
+</div>
 <nav class="navbar navbar-inverse navbar-static-top" id="crunchnav">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -9,13 +11,13 @@
         <span class="icon-bar"></span> -->
         <span>X</span>
       </button>
-      <a class="navbar-brand" href="{{ site.baseurl }}/">#!++</a>
+      <a class="navbar-brand" href="{{ site.baseurl }}/">#!<span class="chnage-color">++</span></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <div id="crunch-navbar">
-      <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav navbar-right">
         {% for page in site.pages %}
           {% if page.title %}
           <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
