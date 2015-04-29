@@ -14,8 +14,11 @@ Keep in mind, as the distro is currently based off of the Debian netinstall, an 
 
 ####DOWNLOAD
 **32-bit**
+
 [i386.torrent](/assets/misc/cbpp-1.0-i386-20150428.iso.torrent)
+
 **64-bit**
+
 [amd64.torrent](/assets/misc/cbpp-1.0-amd64-20150428.iso.torrent)
 
 Each .iso will fit on a standard cd, or write it to a flash drive:
