@@ -23,7 +23,7 @@ h4{
 // }
 
 // #crunchnav, #crunchnav > ul, #crunchnav > ul li, #crunchnav ul li a, #crunchnav a{
-//   height: 30px;
+//   height: 150px;
 //   min-height: 30px;
 //   line-height: 0;
 // }
@@ -32,7 +32,7 @@ h4{
   background:rgba(20,20,20,0.4);
   border-bottom: 1px solid #000;
   li:hover{
-    background:rgba(40,40,40,0.6);
+    // background:rgba(40,40,40,0.6);
   }
   // -moz-box-shadow: 4px 4px 10px -5px #000000;
   // -webkit-box-shadow: 4px 4px 10px -5px #000000;
@@ -49,8 +49,22 @@ h1{
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
 }
+
+#sidebar-style{
+  a{
+    color: #a9a9a9;
+    text-decoration: underline;
+  }
+  a:hover{
+    color: #fff;
+  }
+  .btn{
+    color: #666;
+  }
+}
+
 #content{
-  background:rgba(30,30,30,.7);
+  background:rgba(30,30,30,.2);
   padding-bottom: 20px;
   margin-bottom: 20px;
   a{
@@ -63,9 +77,9 @@ h1{
   .btn{
     color: #666;
   }
-  -moz-box-shadow: 4px 4px 10px -5px #000000;
-  -webkit-box-shadow: 4px 4px 10px -5px #000000;
-  box-shadow: 4px 4px 10px -5px #000000;
+  // -moz-box-shadow: 4px 4px 10px -5px #000000;
+  // -webkit-box-shadow: 4px 4px 10px -5px #000000;
+  // box-shadow: 4px 4px 10px -5px #000000;
 
 }
 
@@ -98,10 +112,10 @@ h1{
   // font-family: 'Roboto Slab', serif;
 }
 
-#crunch-navbar{
-  width: 465px;
-  margin: 0 auto;
-}
+// #crunch-navbar{
+//   width: 465px;
+//   margin: 0 auto;
+// }
 #postcontent{
 
   padding: 0 15px;
@@ -115,4 +129,18 @@ h1{
     list-style-type: square;
   }
   // font-weight: 100;
+}
+
+.above-navbar{
+  height: 90px;
+  background:rgba(20,20,20,0.4);
+}
+.navbar-brand{
+  position: absolute;
+  top: -50px;
+  font-size: 8em;
+  // color: #efefef;
+}
+.change-color{
+  color: #666;
 }

@@ -12,7 +12,7 @@ Keep in mind, as the distro is currently based off of the Debian netinstall, an 
  + Neither release supports Secure Boot
  + Some laptop trackpads will be inoperable during installation, despite working properly in the OS itself.
 
-####DOWNLOAD
+####TORRENTS
 
 ###32-bit###  
 [i386.torrent](/assets/misc/cbpp-1.0-i386-20150428.iso.torrent)  
