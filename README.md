@@ -2,14 +2,15 @@
 
 This is the source code to the [#!++](https://crunchbangplusplus.org) website.
 
-####Built with
-+ [Debian](https://debian.org)
+#### Built with
 + [Jekyll](http://jekyllrb.com)
-+ [nginx](http://nginx.org/en/)
 + [Jquery](https://jquery.com/)
 + [Sass](http://sass-lang.com/)
 + [noisy.js](https://github.com/DanielRapp/Noisy)
 + [Bootstrap](http://getbootstrap.com/)
++ Github Pages
++ ~~[nginx](http://nginx.org/en/)~~
++ ~~[Debian](https://debian.org)~~
 
 ## Posting Updates
 Each news items is it's own file stored in *_posts*. In order to make a new news item you must create a new file with the title *2015-01-01-title-name.md* and include this code at the top of the file.
@@ -22,7 +23,6 @@ categories: cbpp update
 ---
 ```
 Below this use [markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to compose your post.
-After this has been created run **jekyll build** in the current directory and your update will live.  
-*Be sure to save your changes back to github*!
-##LICENSE  
+
+## LICENSE  
 This site along with #!++ itself are [licensed](../master/LICENSE) with WTFPL. However many of the technologies used on this site contain different licenses such as MIT.
