@@ -5,6 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   GOD SAVE THE CRUNCH
 baseurl: ""
 url: "https://crunchbangplusplus.org"
+enforce_ssl: "crunchbangplusplus.org"
 twitter_username: overlandandseas
 github_username:  cbpp
 
