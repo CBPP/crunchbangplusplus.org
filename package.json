@@ -12,12 +12,9 @@
   "repository": "tachyons-css/tachyons",
   "keywords": [
     "css",
-    "oocss",
-    "postcss",
     "functional css",
-    "design",
     "responsive",
-    "performance"
+    "tachyons"
   ],
   "license": "WTFPL",
   "devDependencies": {
@@ -31,7 +28,8 @@
   },
   "contributors": [
     {
-      "name": "Lucas Overland"
+      "name": "Lucas Overland",
+      "name": "Ben Young"
     }
   ],
   "scripts": {
