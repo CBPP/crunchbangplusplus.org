@@ -1,0 +1,45 @@
+{
+  "name": "Crunchbangplusplus.org",
+  "version": "2.0.0",
+  "description": "Website for Crunchbangplusplus.org",
+  "author": "Lucas Overland",
+  "style": "css/tachyons.min.css",
+  "main": "css/tachyons.css",
+  "files": [
+    "css",
+    "src"
+  ],
+  "repository": "tachyons-css/tachyons",
+  "keywords": [
+    "css",
+    "oocss",
+    "postcss",
+    "functional css",
+    "design",
+    "responsive",
+    "performance"
+  ],
+  "license": "WTFPL",
+  "devDependencies": {
+    "copy-files": "^0.1.0",
+    "immutable-css-cli": "^1.1.1",
+    "normalize.css": "^4.2.0",
+    "standard": "^10.0.2",
+    "tachyons-cli": "^1.0.10",
+    "tachyons-modules": "^1.1.8",
+    "watch": "^1.0.1"
+  },
+  "contributors": [
+    {
+      "name": "Lucas Overland"
+    }
+  ],
+  "scripts": {
+    "start": "npm run build:watch",
+    "mutations": "immutable-css src/tachyons.css --strict",
+    "build": "npm run build:css && npm run build:minify && standard",
+    "build:css": "tachyons src/tachyons.css > css/tachyons.css",
+    "build:minify": "tachyons src/tachyons.css -m > css/tachyons.min.css",
+    "build:watch": "watch 'npm run build' ./src/"
+  }
+}
