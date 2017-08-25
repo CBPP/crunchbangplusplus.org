@@ -38,7 +38,7 @@
     "build": "npm run build:css && npm run build:minify && npm run build:go",
     "build:css": "tachyons src/tachyons.css > css/tachyons.css",
     "build:minify": "tachyons src/tachyons.css -m > css/tachyons.min.css",
-    "build:watch": "watch 'npm run build' ./",
-    "build:go": "gopherjs build -m go/main.go -o javascripts/main.js"
+    "build:watch": "watch 'npm run build' ./src/ ./go",
+    "build:go": "gopherjs build -m go/main.go -o javascript/main.js"
   }
 }

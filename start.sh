@@ -1,1 +1,1 @@
-browser-sync start --server --files "index.html, css/tachyons.css" & npm start
+browser-sync start --server --files "index.html, css/tachyons.css, javascript/main.js" & npm start
