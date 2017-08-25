@@ -1,1 +1,5 @@
 Source code to crunchbangplusplus.org.
+
+run
+gopherjs build -m main.go
+npm run build

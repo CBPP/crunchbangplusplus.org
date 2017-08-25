@@ -1,1 +1,2 @@
-browser-sync start --server --files "index.html, css/tachyons.css, javascript/main.js" & npm start
+echo "No build and Watch script for go version"
+exit 1

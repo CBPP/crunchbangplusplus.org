@@ -24,9 +24,7 @@ func lightboxImage(evt dom.Event) {
   img := d.CreateElement("img")
   img.SetAttribute("src", target.GetAttribute("src"))
   img.Class().Add("w-80")
-  
-  // dom.GetWindow().SetTimeout(func() {
-  // }, 0)
+
   mask.AppendChild(img)
   
   body := d.(dom.HTMLDocument).Body()
