@@ -1,0 +1,4 @@
+Codename: stretch
+Components: main
+Architectures: amd64 i386 armhf arm64
+SignWith: ED36DF136EBA5BECD2D45C93F1FEAF8383DB5B89

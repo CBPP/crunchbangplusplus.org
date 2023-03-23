@@ -1,0 +1,4 @@
+Codename: buster
+Components: main
+Architectures: amd64 i386 armhf arm64
+SignWith: 19A64C574CCF2B049D32330BDAC768B500E92A6E

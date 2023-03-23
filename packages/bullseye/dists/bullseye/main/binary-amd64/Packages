@@ -1,0 +1,311 @@
+Package: cbpp-configs
+Version: 11.0
+Architecture: all
+Maintainer: Ben Young <computermouth@crunchbangplusplus.org>
+Installed-Size: 1726
+Homepage: https://crunchbangplusplus.org/
+Priority: extra
+Section: misc
+Filename: pool/main/c/cbpp-configs/cbpp-configs_11.0_all.deb
+Size: 1573128
+SHA256: 8a54a1e55a53dee8cb201c36da16df61b0a14f2f0c6b887a2ad3df11df819291
+SHA1: 5423c8f3ca016d365cf666035a0183ff306f9696
+MD5sum: 9b83489c350102b3448b686c3f11b8e5
+Description: config files for CBPP
+ Various configuration files for use with CBPP.
+
+Package: cbpp-exit
+Version: 11.0
+Architecture: all
+Maintainer: Ben Young <computermouth@crunchbangplusplus.org>
+Installed-Size: 12
+Depends: python3-gi
+Homepage: https://crunchbangplusplus.org
+Priority: extra
+Section: misc
+Filename: pool/main/c/cbpp-exit/cbpp-exit_11.0_all.deb
+Size: 2620
+SHA256: ddc0ea210a89e627c707c7d2903fe5f3b89406b5ea6af5cdced04d91433998f4
+SHA1: feeea462f2e70c12c9d1f9e52ed56e17a68ddc32
+MD5sum: fd6aa8b197dc1146e710f85155bd563c
+Description: CrunchBangPlusPlus logout script.
+ GUI logout/shutdown/restart/suspend script.
+
+Package: cbpp-icon-theme
+Version: 11.0
+Architecture: all
+Maintainer: Ben Young <computermouth@crunchbangplusplus.org>
+Installed-Size: 78647
+Homepage: https://crunchbangplusplus.org
+Priority: optional
+Section: x11
+Filename: pool/main/c/cbpp-icon-theme/cbpp-icon-theme_11.0_all.deb
+Size: 16476556
+SHA256: 66e85a9fb000aa08557c560b9d3e14fd655792f2f5c50bde986cf834aabb9c18
+SHA1: d5cca557d946f071c62d46ebd020d0129e27f73f
+MD5sum: d1c6ebabc443bc40186174ba3594bd5e
+Description: Icon theme with tilish style, by Tiheum
+ Default icon themes for use with CrunchBangPlusPlus.
+
+Package: cbpp-lxdm-theme
+Version: 11.0
+Architecture: all
+Maintainer: Ben Young <computermouth@crunchbangplusplus.org>
+Installed-Size: 364
+Homepage: https://github.com/cbpp
+Priority: optional
+Section: unknown
+Filename: pool/main/c/cbpp-lxdm-theme/cbpp-lxdm-theme_11.0_all.deb
+Size: 106160
+SHA256: 497af59b7eda1bcc916cadcb10f4f1e30332b1c917dd60d36bc9abceba305e9f
+SHA1: 8301084fc44470539661a23db181ecf0a2b48f5d
+MD5sum: 3e9d8fbb9e79867215b6c257a3817ff7
+Description: Theme for lxdm
+ Theme and configuration file for lxdm out of the box
+
+Package: cbpp-meta-java
+Source: cbpp-welcome
+Version: 11.0
+Architecture: all
+Maintainer: Ben Young <computermouth@crunchbangplusplus.org>
+Installed-Size: 8
+Depends: openjdk-11-jre
+Homepage: https://crunchbangplusplus.org
+Priority: extra
+Section: misc
+Filename: pool/main/c/cbpp-welcome/cbpp-meta-java_11.0_all.deb
+Size: 2404
+SHA256: da56c715bd3855673bb9c8157ffb830d6352ac47e0665a7038cd209d5640ab5c
+SHA1: 68c0b802787833a9d9995e5557080e17d4b7c714
+MD5sum: d1a601aac31ac6873625b64e661d6895
+Description: CrunchBangplusplus java meta package
+ Installs various java packages.
+
+Package: cbpp-meta-lamp
+Source: cbpp-welcome
+Version: 11.0
+Architecture: all
+Maintainer: Ben Young <computermouth@crunchbangplusplus.org>
+Installed-Size: 8
+Depends: apache2, default-mysql-server, php, php-pear, php-gd, php-mysql, php-imagick, php-curl, curl, rsync, cronolog
+Homepage: https://crunchbangplusplus.org
+Priority: extra
+Section: misc
+Filename: pool/main/c/cbpp-welcome/cbpp-meta-lamp_11.0_all.deb
+Size: 2460
+SHA256: f2332efbcdaa754e0d57e232fb76dbc5141c71d938f6c291fcaec58756e6a748
+SHA1: 8d111cd723de2c1ede6072b612d515439a3268fd
+MD5sum: b3c3e62a1837c256d8ad31928bf4eb76
+Description: CrunchBangplusplus lamp meta package
+ Installs various web server tools.
+
+Package: cbpp-meta-libreoffice
+Source: cbpp-welcome
+Version: 11.0
+Architecture: all
+Maintainer: Ben Young <computermouth@crunchbangplusplus.org>
+Installed-Size: 8
+Depends: libreoffice, libreoffice-gtk3
+Homepage: https://crunchbangplusplus.org
+Priority: extra
+Section: misc
+Filename: pool/main/c/cbpp-welcome/cbpp-meta-libreoffice_11.0_all.deb
+Size: 2420
+SHA256: 67ce46d130b478f44591db274a88c88b5113eb40679d90a4b25c369340b0e595
+SHA1: 8943d582094cc2c539c12f1de247b0bb946b351d
+MD5sum: 5e25c6c4b2c48eabb7f55bf1a3ad7969
+Description: CrunchBangplusplus libreoffice meta package
+ Installs libreoffice and associated gtk theme.
+
+Package: cbpp-meta-packaging
+Source: cbpp-welcome
+Version: 11.0
+Architecture: all
+Maintainer: Ben Young <computermouth@crunchbangplusplus.org>
+Installed-Size: 8
+Depends: build-essential, debhelper, cdbs, dh-make, diffutils, patch, gnupg, fakeroot, lintian, devscripts, pbuilder, dpatch, dput, quilt
+Homepage: https://crunchbangplusplus.org
+Priority: extra
+Section: misc
+Filename: pool/main/c/cbpp-welcome/cbpp-meta-packaging_11.0_all.deb
+Size: 2484
+SHA256: a9bade1b771d92189bba08a6a4bd8fed6750fee066d7c45a0d2d3d7ad5c056e7
+SHA1: 179827fa6b3dd3c9338e10786ef0f5bbfee686b3
+MD5sum: 30c9c0a2e7fe26e05b0ac6c02a36986b
+Description: CrunchBangplusplus packaging meta package
+ Installs various Debian packaging tools.
+
+Package: cbpp-meta-printer-support
+Source: cbpp-welcome
+Version: 11.0
+Architecture: all
+Maintainer: Ben Young <computermouth@crunchbangplusplus.org>
+Installed-Size: 8
+Depends: cups, cups-pdf, system-config-printer, printer-driver-hpijs
+Homepage: https://crunchbangplusplus.org
+Priority: extra
+Section: misc
+Filename: pool/main/c/cbpp-welcome/cbpp-meta-printer-support_11.0_all.deb
+Size: 2456
+SHA256: a6303201a18e6d91d2235870865f74c7b606bceeff4dfa5299d6b5061735596e
+SHA1: 48526b04ecff469840e2da5ddcc65591549a0867
+MD5sum: b7f028028dbcac8974f3ff133f3dc249
+Description: CrunchBangplusplus printer support meta package
+ Installs various printer packages to enable printer support.
+
+Package: cbpp-meta-ssh
+Source: cbpp-welcome
+Version: 11.0
+Architecture: all
+Maintainer: Ben Young <computermouth@crunchbangplusplus.org>
+Installed-Size: 8
+Depends: openssh-server, openssh-client
+Homepage: https://crunchbangplusplus.org
+Priority: extra
+Section: misc
+Filename: pool/main/c/cbpp-welcome/cbpp-meta-ssh_11.0_all.deb
+Size: 2420
+SHA256: b400e7717101644d061a2ac8da3a11c369c7a2e19b4a88d26ffa09e579885383
+SHA1: f67321fd80c98ea5602ad24bb2dd5f3cfe8984b4
+MD5sum: a5cbfa61e7158a09cd3d75b0ea62a720
+Description: CrunchBangplusplus ssh meta package
+ Installs ssh server and various ssh tools.
+
+Package: cbpp-meta-vcs
+Source: cbpp-welcome
+Version: 11.0
+Architecture: all
+Maintainer: Ben Young <computermouth@crunchbangplusplus.org>
+Installed-Size: 8
+Depends: git, git-gui, git-cvs, git-svn, git-email, mercurial, subversion, subversion-tools, bzr, bzrtools, cvs
+Homepage: https://crunchbangplusplus.org
+Priority: extra
+Section: misc
+Filename: pool/main/c/cbpp-welcome/cbpp-meta-vcs_11.0_all.deb
+Size: 2448
+SHA256: 6ce7a3a9437f51eb33879f8725932a61b4c7d8c9f642ea99f2d677a64e8b3404
+SHA1: f11680adf671c081f847caf9483b52724f97fe6b
+MD5sum: ae745471a4f10a9702b3f0bb8cad9d86
+Description: CrunchBang version control meta package
+ Installs various version control tools.
+
+Package: cbpp-metapackage
+Version: 11.1
+Architecture: all
+Maintainer: Ben Young <computermouth@crunchbangplusplus.org>
+Installed-Size: 8
+Recommends: xorg, openbox, obmenu, obconf, nitrogen, gmrun, fbxkb, compton, transset-df, file-roller, xscreensaver, terminator, filezilla, lxappearance, arandr, tint2, parcellite, catfish, xfce4-notifyd, gksu, gdebi, menu, wmctrl, xdotool, desktop-base, thunar, thunar-volman, thunar-media-tags-plugin, thunar-archive-plugin, unace, lzop, rzip, unalz, unzip, zip, zoo, xz-utils, arj, bzip2, alsa-base, lame, pulseaudio, xfce4-volumed, viewnior, xfce4-screenshooter, ttf-freefont, ttf-liberation, galculator, gsimplecal, firefox-esr, network-manager-gnome, tumbler, tumbler-plugins-extra, network-manager-openvpn-gnome, network-manager-pptp-gnome, network-manager-vpnc-gnome, avahi-utils, avahi-daemon, libnss-mdns, wireless-tools, gvfs-fuse, gigolo, fusesmb, dmz-cursor-theme, gtk2-engines-murrine, gnome-icon-theme, gnome-icon-theme-extras, user-setup, anacron, os-prober, bash-completion, less, bc, curl, screen, cowsay, figlet, scrot, whois, ftp, rpl, conky-all, zenity, xfburn, rsync, openssh-client, sshfs, suckless-tools, gparted, e2fsprogs, xfsprogs, reiserfsprogs, reiser4progs, jfsutils, synaptic, gtrayicon, xinput, cpufrequtils, ntp, xtightvncviewer, debconf-utils, apt-xapian-index, usbutils, hsetroot, htop, xsel, build-essential, hexchat, transmission-gtk, vlc, geany, geany-plugins, atril, gimp, gimp-plugin-registry, gnumeric, abiword, mlocate, udisks, xfce4-power-manager, eject, lxpolkit, ibus, mate-media, mate-settings-daemon-common, obapps, cbpp-pipemenus, ntfs-3g, cbpp-wallpapers, cbpp-exit, cbpp-configs, dosfstools, cbpp-icon-theme, cbpp-ui-theme, cbpp-welcome, cbpp-lxdm-theme
+Homepage: https://crunchbangplusplus.org
+Priority: optional
+Section: misc
+Filename: pool/main/c/cbpp-metapackage/cbpp-metapackage_11.1_all.deb
+Size: 2716
+SHA256: 3478d51662f24aa6e0464e499ac83c847451f6651d291e39b508e94d2d6d71e4
+SHA1: a05702d963465c25bc164721ee974fc33ea7a466
+MD5sum: 1d9093439fecaebc232765addb470f24
+Description: metapackage for CrunchBangPlusPlus
+ Basic metapackage for CrunchBangPlusPlus.
+
+Package: cbpp-pipemenus
+Version: 11.0
+Architecture: all
+Maintainer: Ben Young <computermouth@crunchbangplusplus.org>
+Installed-Size: 48
+Depends: openbox, zenity, terminator, wget, compton, curl, tar, python3, python3-paramiko, mesa-utils
+Homepage: https://crunchbangplusplus.org/
+Priority: extra
+Section: misc
+Filename: pool/main/c/cbpp-pipemenus/cbpp-pipemenus_11.0_all.deb
+Size: 12560
+SHA256: 2ff9fff809ccadd36bfaf676567b7acb0bd1e6647637edc370a84f28a48d9b0b
+SHA1: a594a9dbf13f125e437aea0c2dbdf410e73c924e
+MD5sum: 70306353ab1efbe249ee40dcada3747c
+Description: various Openbox pipemenus.
+ Contains various Openbox pipemenus for use with
+ CBPP.
+
+Package: cbpp-ui-theme
+Version: 11.0
+Architecture: all
+Maintainer: Ben Young <computermouth@crunchbangplusplus.org>
+Installed-Size: 477
+Depends: gtk2-engines-murrine
+Homepage: https://crunchbangplusplus.org
+Priority: extra
+Section: x11
+Filename: pool/main/c/cbpp-ui-theme/cbpp-ui-theme_11.0_all.deb
+Size: 131836
+SHA256: db06344f0d6a32914369b8d3630da605b2cde9ed84595e3809325e9d8089e4f5
+SHA1: 46d0e2793aeba0e535039a4e6a6de89a58d79aa3
+MD5sum: bfd6cf04c8e06eeed2593ead20d993e7
+Description: default theme for CrunchBangPlusPlus
+ Default GTK+ and Openbox themes for CBPP.
+
+Package: cbpp-wallpapers
+Version: 11.0
+Architecture: all
+Maintainer: Ben Young <computermouth@crunchbangplusplus.org>
+Installed-Size: 269
+Homepage: https://crunchbangplusplus.org
+Priority: extra
+Section: x11
+Filename: pool/main/c/cbpp-wallpapers/cbpp-wallpapers_11.0_all.deb
+Size: 266616
+SHA256: 207eeecf053c454131419dd16e168573ed0a30184ca5e071555216ebf4f25d9e
+SHA1: 07014ab5ed7a33b70082949ea3d6ad605d32f731
+MD5sum: 91cff975379bb9892243d265a139bc0a
+Description: A selection of wallpapers
+ Images for use as backgrounds with CrunchBangPlusPlus.
+
+Package: cbpp-welcome
+Version: 11.0
+Architecture: all
+Maintainer: Ben Young <computermouth@crunchbangplusplus.org>
+Installed-Size: 37
+Depends: terminator, cbpp-pipemenus
+Homepage: https://crunchbangplusplus.org
+Priority: extra
+Section: misc
+Filename: pool/main/c/cbpp-welcome/cbpp-welcome_11.0_all.deb
+Size: 7588
+SHA256: 7b611ca74ed64a960e33c8e1a5eac229ab3c15c079ac7a93f746f4bcbd0d086f
+SHA1: 20951f9cbfa018b978487a9978c4d0c9980f9feb
+MD5sum: f3e050618e186b94e17ca6d44f5bc792
+Description: CrunchBangplusplus welcome script.
+ Optional post installation script for CBPP.
+
+Package: obapps
+Version: 0.2.3
+Architecture: all
+Maintainer: Ben Young <computermouth@crunchbangplusplus.org>
+Installed-Size: 39
+Depends: python3:any, python3-xlib, wxpython-tools
+Homepage: http://sourceforge.net/projects/obapps/
+Priority: extra
+Section: x11
+Filename: pool/main/o/obapps/obapps_0.2.3_all.deb
+Size: 7824
+SHA256: 8576e0fe5e2f80a5236054519e5fb6e58dbf66df3c25c849848255ced9eb81a4
+SHA1: 3b3d135648746580f0a52fe7a688af3a6cee5396
+MD5sum: c7029d50b5c76d570dd36a1fec5acbc3
+Description: GUI tool for configuring application settings in Openbox
+  A graphical tool for configuring the per-application settings
+  (window matching) in the Openbox window manager.
+
+Package: obmenu
+Version: 11.0
+Architecture: all
+Maintainer: Ben Young <computermouth@crunchbangplusplus.org>
+Installed-Size: 70
+Depends: python3, python3-gi
+Homepage: https://crunchbangplusplus.org/
+Priority: extra
+Section: misc
+Filename: pool/main/o/obmenu/obmenu_11.0_all.deb
+Size: 11684
+SHA256: 533ca0c111aa3d7462138df4707356b2e29cbeee8a182891815a6997c2eadb10
+SHA1: 689b0441b351801576aaf4663ae2434419e6ee8c
+MD5sum: 3babdd09eee7b8e43d69fd83418f1148
+Description: various Openbox pipemenus.
+ A repackaging of https://github.com/0x10/obmenu2
+

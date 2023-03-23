@@ -1,0 +1,4 @@
+Codename: bullseye
+Components: main
+Architectures: amd64 i386 armhf arm64
+SignWith: 324710CC00FC52B89D23E3FAE93A89B6F328DC72
