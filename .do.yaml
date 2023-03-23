@@ -1,0 +1,18 @@
+alerts:
+- rule: DEPLOYMENT_FAILED
+- rule: DOMAIN_FAILED
+domains:
+- domain: crunchbangplusplus.org
+  type: PRIMARY
+  zone: crunchbangplusplus.org
+  #~ wildcard: true
+name: crunchbangplusplus-org
+region: tor
+static_sites:
+- name: crunchbangplusplus-org
+  github:
+    branch: master
+    deploy_on_push: true
+    repo: cbpp/crunchbangplusplus.org
+  dockerfile_path: Dockerfile
+  output_dir: /everything
