@@ -5,7 +5,7 @@ domains:
 - domain: crunchbangplusplus.org
   type: PRIMARY
   zone: crunchbangplusplus.org
-  #~ wildcard: true
+  wildcard: true
 name: crunchbangplusplus-org
 region: tor
 static_sites:
