@@ -101,6 +101,8 @@
   </article>
   <article class="bt b--black-10 black-70 ph3 ph5-l pv4 pv5-ns bg-white" id="faq">
     <h2 class=" black">FAQ</h2>
+    <h3 class="fw5">Apt is reporting an expired key signature <span class="pa2 code red f6">"The following signatures were invalid: EXPKEYSIG E93A89B6F328DC72"</span></h3>
+    <p class="pl4">CBPP 11 had a key to sign packages which had an expiration set for 2 years from creation. Unfortunately, this means it expired before the new version came out. You can update the key with the following command: <span class="pa2 code blue f6">curl -L https://packages.crunchbangplusplus.org/cbpp11-2.key | sudo apt-key add -</span></p>
     <h3 class="fw5">Where are the direct downloads?</h3>
     <p class="pl4">All of the older images will be provided as direct downloads. New images will be published as direct downloads once the torrents reach a self-sufficient point.</p>
     <h3 class="fw5">Will you still be supporting #!++ older releases?</h3>
