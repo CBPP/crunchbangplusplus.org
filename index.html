@@ -1,228 +1,340 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <title>
-    Crunchbangplusplus | Debian Based Minimal Linux Distro
-  </title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/tachyons.min.css">
-  <script defer type="text/javascript" src="javascript/custom.js"></script>
-</head>
-<body class="bg-near-white avenir">
-  <header class="w-100 pa3 ph5-ns bg-dark-gray">
-    <div class="db dt-ns mw9 center w-100">
-      <div class="db dtc-ns v-mid tl w5">
-        <a href="/" class="dib f5 f4-ns mt0 mb1 link white-70" title="Home">
-          Crunchbangplusplus <small class="f6 mt2 mt3-ns pr2 white-30 fw2">11</small>
-        </a>
-      </div>
-      <nav class="db dtc-ns v-mid w-100 tl tr-ns mt2 mt0-ns">
-        <a title="Download" href="#download" class="f6  hover-blue link white-70 mr2 mr3-m mr4-l dib">
-          Download
-        </a>
-        <a title="Community" href="https://www.reddit.com/r/crunchbangplusplus/"
-        class="f6  hover-blue link white-70 mr2 mr3-m mr4-l dib">
-        Community
-      </a>
-      <a title="Github" href="https://github.com/CBPP/cbpp"
-      class="f6  hover-blue link white-70 mr2 mr3-m mr4-l dib">
-      Github
-    </a>
-  </nav>
+<!doctype html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+      <title>
+         Crunchbangplusplus | Debian Based Minimal Linux Distro
+      </title>
+      <link href="/css/output.css" rel="stylesheet">
+   </head>
+   <body class="bg-zinc-900 max-h-screen">
+	
+      <!-- DESGIN BACKGROUND -->
+      <div class="relative isolate overflow-hidden bg-zinc-900 drop-shadow-md border-b border-zinc-700">
+         <svg
+            class="absolute inset-0 -z-10 h-full w-full stroke-white/10 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
+            aria-hidden="true">
+            <defs>
+               <pattern id="983e3e4c-de6d-4c3f-8d64-b9761d1534cc" width="200" height="200" x="50%" y="-1"
+                  patternUnits="userSpaceOnUse">
+                  <path d="M.5 200V.5H200" fill="none" />
+               </pattern>
+            </defs>
+            <svg x="50%" y="-1" class="overflow-visible fill-zinc-800/20">
+               <path d="M-200 0h201v201h-201Z M600 0h201v201h-201Z M-400 600h201v201h-201Z M200 800h201v201h-201Z"
+                  stroke-width="0" />
+            </svg>
+            <rect width="100%" height="100%" stroke-width="0" fill="url(#983e3e4c-de6d-4c3f-8d64-b9761d1534cc)" />
+         </svg>
+         <div
+            class="absolute left-[calc(50%-4rem)] top-10 -z-10 transform-gpu blur-3xl sm:left-[calc(50%-18rem)] lg:left-48 lg:top-[calc(50%-30rem)] xl:left-[calc(50%-24rem)]"
+            aria-hidden="true">
+         </div>
+
+         <!-- HEADER / NAVIGATION -->
+         <header class="">
+            <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+               <div class="flex lg:flex-1">
+                  <a href="/" class="-m-1.5 p-1.5 text-white text-xl">
+                  Crunchbang<span class="text-stone-400">plusplus</span> 12
+                  </a>
+               </div>
+               <div class="flex lg:hidden">
+                  <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-zinc-400">
+                     <span class="sr-only">Open main menu</span>
+                     <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                        aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                     </svg>
+                  </button>
+               </div>
+               <div class="hidden lg:flex lg:gap-x-12">
+                  <a href="/#features" class="text-sm font-semibold leading-6 text-white">Features</a>
+                  <a href="/#screenshots" class="text-sm font-semibold leading-6 text-white">Screenshots</a>
+                  <a href="/#faq" class="text-sm font-semibold leading-6 text-white">FAQ</a>
+                  <a href="/download.html" class="text-sm font-semibold leading-6 text-white">Download</a>
+                  <a href="https://www.reddit.com/r/crunchbangplusplus/" class="text-sm font-semibold leading-6 text-white">Community</a>
+                  <a href="https://github.com/CBPP/cbpp" class="text-sm font-semibold leading-6 text-white">Github</a>
+               </div>
+            </nav>
+         </header>
+
+         <!-- HERO -->
+         <div class="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-32 lg:flex lg:px-8 lg:py-40">
+            <div class="mx-auto max-w-2xl flex-shrink-0 lg:mx-0 lg:max-w-xl lg:pt-8">
+               <h1 class="text-4xl font-bold tracking-tight text-white sm:text-6xl mt-48">
+                  #!++ with debian 12
+               </h1>
+               <p class="mt-6 text-lg leading-8 text-zinc-300">
+                  The classic minimal crunchbang feel, now with debian 12 bookworm.
+               </p>
+               <div class="mt-10 flex items-center gap-x-6">
+                  <a href="#"
+                     class="rounded-md bg-stone-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-stone-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-stone-400">
+                  Download 64bit release
+                  </a>
+                  <a href="/download.html" class="text-sm font-semibold leading-6 text-white">Other Releases <span
+                     aria-hidden="true">→</span></a>
+               </div>
+            </div>
+
+
+            
+            <div class="mx-auto mt-16 flex max-w-2xl sm:mt-24 lg:ml-10 lg:mr-0 lg:mt-0 lg:max-w-none lg:flex-none xl:ml-32">
+               <div class="max-w-3xl flex-none sm:max-w-5xl">
+                  <img src="/images/2023-06-11--1686519304_1056x800_scrot.png" alt="App screenshot" width="1024" height="768"
+                     class="w-[76rem] bg-white/5 shadow-2xl ring-1 ring-white/10">
+               </div>
+            </div>
+         </div>
+
 </div>
-</header> <!-- END OF NAVIGATION -->
-<main class="w-100 bt b--black-10">
-  <section class="ph3 ph5-l w-100 b g-transparent pv3 mb4 mb5-ns bb b--black-10 overflow-auto bg-white">
-    <div class="nowrap mw9 center">
-      <a title="Getting Started" href="#screenshots" class="pv1-ns f6 fw4 dim link black-70 mr2 mr3-m mr4-l dib">
-        Screenshots
-      </a>
-      <a title="Features" href="#features" class="pv1-ns f6 fw4 dim link black-70 mr1 mr3-m mr4-l dib">
-        Features
-      </a>
-      <a title="Testimonials" href="#faq" class="pv1-ns f6 fw4 dim link black-70 mr1 mr3-m mr4-l dib">
-        FAQ
-      </a>
-    </div>
-  </section>
-  <section class="ph3 ph5-l cf mw9 center tc-m mb5-ns mb4">
-    <div class="pb3 pb4-ns pt4-l pt5-ns mt4-l black-70 fl-l w-50-l">
-      <h1 class="f4  f1-ns lh-title measure mt0">
-        #!++ with debian 11
-      </h1>
-      <p class="f5 f4-ns fw4 b measure dib-m lh-copy">
-        The classic minimal crunchbang feel, now with debian 11 bullseye.
+
+				<!-- Features -->
+					<div class="bg-zinc-800 py-24 sm:py-32 border-b border-zinc-700 drop-shadow-md" id="features">
+				  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+				    <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+				      <div>
+				        <h2 class="text-base font-semibold leading-7 text-white">Features</h2>
+				        <p class="mt-2 text-3xl font-bold tracking-tight text-zinc-300 sm:text-4xl">New to #!++ 12</p>
+				        <p class="mt-6 text-base leading-7 text-zinc-200">After 8 years of #!++, you know what to expect. Still small, still fast, but now with newer packages!</p>
+				      </div>
+				      <dl class="col-span-2 grid grid-cols-1 gap-x-8 gap-y-10 text-base leading-7 text-zinc-200 sm:grid-cols-2 lg:gap-y-16">
+				        <div class="relative pl-9">
+				          <dt class="font-semibold text-zinc-300">
+				            Debian 12 base
+				          </dt>
+				          <dd class="mt-2">Read more about Debian 12's major changes <a href="https://www.debian.org/releases/bookworm/amd64/release-notes/ch-whats-new.en.html">here</a>.</dd>
+				        </div>
+				        <div class="relative pl-9">
+				          <dt class="font-semibold text-zinc-300">
+				            Linux 6.1
+				          </dt>
+				          <dd class="mt-2">2023's LTS release of the Linux kernel.</dd>
+				        </div>
+				        <div class="relative pl-9">
+				          <dt class="font-semibold text-zinc-300">
+				            GTK 4.0 Support
+				          </dt>
+				          <dd class="mt-2">Support for the latest and greatest Gnome desktop apps.</dd>
+				        </div>
+				        <div class="relative pl-9">
+				          <dt class="font-semibold text-zinc-300">
+				            New Dark Theme!
+				          </dt>
+				          <dd class="mt-2">You asked, crunch has delivered! A new dark mode GTK theme has been added, with a supporting Openbox Dark theme.</dd>
+				        </div>
+				      </dl>
+				    </div>
+				  </div>
+				</div>
+
+				<!-- Screenshots -->
+				<div class="bg-zinc-900 py-24 sm:py-32" id="screenshots">
+			  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+			    <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+			      <div>
+			        <h2 class=" font-semibold leading-7 text-white text-2xl">Screenshots</h2>
+			      </div>
+			      <dl class="col-span-2 grid grid-cols-1 gap-x-2 gap-y-4 text-base leading-7 text-zinc-200 sm:grid-cols-2 lg:gap-y-6">
+			        <div class="relative pl-9">
+                  <button onclick="lightBox('/images/2023-06-11--1686519304_1056x800_scrot.png')">
+							       <img src="/images/2023-06-11--1686519304_1056x800_scrot.png" />
+                  </button>
+			        </div>
+			        <div class="relative pl-9">
+                  <button onclick="lightBox('/images/2023-06-11--1686519601_1042x790_scrot.png')">
+							       <img src="/images/2023-06-11--1686519601_1042x790_scrot.png" />
+                  </button>
+			        </div>
+			        <div class="relative pl-9">
+                  <button onclick="lightBox('/images/2023-06-11--1686519508_1050x807_scrot.png')">
+							       <img src="/images/2023-06-11--1686519508_1050x807_scrot.png" />
+                  </button>
+			        </div>
+			        <div class="relative pl-9">
+                  <button onclick="lightBox('/images/2023-06-11--1686519715_1039x785_scrot.png')">
+							       <img src="/images/2023-06-11--1686519715_1039x785_scrot.png" />
+                  </button>
+			        </div>
+						</div>
+					</div>
+				</div>
+
+
+				<!-- FAQ -->
+				<div class="bg-zinc-900 border-b border-zinc-700 drop-shadow-md" id="faq">
+				  <div class="mx-auto max-w-7xl px-6 py-24 sm:pt-32 lg:px-8 lg:py-40">
+				    <div class="lg:grid lg:grid-cols-12 lg:gap-8">
+				      <div class="lg:col-span-5">
+				        <h2 class="text-2xl font-bold leading-10 tracking-tight text-white">Frequently asked questions</h2>
+				        <p class="mt-4 text-base leading-7 text-zinc-300">Can’t find the answer you’re looking for? Reach out in our <a href="#" class="font-semibold text-gray-100 hover:text-gray-400">community subreddit</a>!</p>
+				      </div>
+				      <div class="mt-10 lg:col-span-7 lg:mt-0">
+				        <dl class="space-y-10">
+				          <div>
+				            <dt class="text-base font-semibold leading-7 text-white">What are the login credentials for the live image?</dt>
+				            <dd class="mt-2 text-base leading-7 text-gray-300">The username and password are both <b>'live'</b> without the quotes.</dd>
+				          </div>
+				          <div>
+				            <dt class="text-base font-semibold leading-7 text-white">Should I use the i686 image, or amd64?</dt>
+				            <dd class="mt-2 text-base leading-7 text-gray-300">These days, there's not much reason to use the i686 image, unless you have a very old PC that doesn't support PAE.</dd>
+				          </div>
+				          <div>
+				            <dt class="text-base font-semibold leading-7 text-white">Will you still be supporting #!++ older releases?</dt>
+				            <dd class="mt-2 text-base leading-7 text-gray-300">Debian continues to issue security updates for ~1 year after a new 'stable' is release. While the older CBPP releases won't be getting any new updates from us, the repos will continue to be available for up to the next year as well.</dd>
+				          </div>
+				          <div>
+				            <dt class="text-base font-semibold leading-7 text-white">Where are the direct downloads?</dt>
+				            <dd class="mt-2 text-base leading-7 text-gray-300">All images are still available via Github Releases on the image source <a href="https://github.com/cbpp/cbpp/releases">Github repo</a></dd>
+				          </div>
+				          <div>
+				            <dt class="text-base font-semibold leading-7 text-white">Apt is reporting an expired key signature</dt>
+				            <dd class="mt-2 text-base leading-7 text-gray-300">CBPP 11 had a key to sign packages which had an expiration set for 2 years from creation. Unfortunately, this means it expired before the new version came out. You can update the key with the following command: <br>
+                  <code class="text-red-400">curl -L https://packages.crunchbangplusplus.org/cbpp11-2.key | sudo apt-key add -</code>
+                  </dd>
+				          </div>
+
+				          <!-- More questions... -->
+				        </dl>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+
+<div class="relative isolate bg-zinc-800 pb-32 pt-24 sm:pt-32">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="mx-auto max-w-xl text-center">
+      <h2 class="text-lg font-semibold leading-8 tracking-tight text-white">Testimonials</h2>
+      <p class="mt-2 text-3xl font-bold tracking-tight text-zinc-300 sm:text-4xl">
+         10/10 average rating on <a class="text-zinc-100 underline hover:text-zinc-400" href="https://distrowatch.com/table.php?distribution=cbpp">distrowatch</a>.
       </p>
     </div>
-    <div class="fl-l w-50-l tl tc-ns">
-      <img src="images/cbppanother.png" width="360" id="showcase-image" alt="Openbox view" class="shadow-4 js-lightbox pointer"/>
-      <p class="pt3 ma0">
-        <a class="mb3 f6 f5-ns  dib shadow-4 shadow-hover bb b--gray bw1 bg-white gray ph2 ph3-ns pv2 pv3-ns  no-underline" href="https://github.com/CBPP/cbpp/releases/download/v11.2/cbpp-11.2-amd64-20230514.iso">
-          Download <code class="f6 fw4 di">64bit</code>
-        </a>&nbsp;&nbsp;
-        <a class="f6 f5-ns  dib shadow-4 shadow-hover bb b--light-gray bw1 bg-white gray ph2 ph3-ns pv2 pv3-ns  no-underline" href="https://github.com/CBPP/cbpp/releases/download/v11.2/cbpp-11.2-i386-20230514.iso">
-          Download <code class="f6 fw4 di">32bit(686)</code>
-        </a>
-      </p>
-    </div>
-  </section>
-  <article class="bt b--black-10 bg-white black-70 ph3 ph5-l pv4 pv5-ns" id="screenshots">
-    <h2 class="">Screenshots</h2>
-    <div class="flex justify-around">
-      <div class="w-100 w-50-m w-25-l pa3">
-        <img src="images/cbppanother.png" alt="Frank Ocean Blonde Album Cover" class="w-100 db outline black-10 db link dim tc js-lightbox pointer">
-        <p class="mt2 f6 lh-copy">
-          Openbox View
-        </p>
-      </div>
-      <div class="w-100 w-50-m w-25-l pa3">
-        <img src="images/cbppviewfolders.png" alt="Frank Ocean Blonde Album Cover" class="w-100 db outline black-10 db link dim tc js-lightbox pointer">
-        <p class="mt2 f6 lh-copy">
-          Folder View
-        </p>
-      </div>
-    </div>
-  </article>
-  <article class="bt b--black-10 black-70 ph3 ph5-l pv4 pv5-ns" id="features">
-    <h2 class=" black">Features</h2>
-    <h3 class="fw5">New to #!++</h3>
-    <ul class="list pl4">
-      <li class="pt2 pb2">Python 3 rewrites of all Python 2 scripts, including new packages for Openbox supporting apps.</li>
-      <li class="pt2 pb2">Rebased CBPP icon theme on the latest Faenza set.</li>
-      <li class="pt2 pb2">Many bugfixes were applied thanks to the diligence of the community!</li>
-    </ul>
-    <h3 class="fw5">New to debian 11</h3>
-    <ul class="list pl4">
-      <li class="pt2 pb2">Linux 5.10</li>
-      <li class="pt2 pb2">Merged /usr</li>
-    </ul>
-  </article>
-  <article class="bt b--black-10 black-70 ph3 ph5-l pv4 pv5-ns bg-white" id="faq">
-    <h2 class=" black">FAQ</h2>
-    <h3 class="fw5">Apt is reporting an expired key signature <span class="pa2 code red f6">"The following signatures were invalid: EXPKEYSIG E93A89B6F328DC72"</span></h3>
-    <p class="pl4">CBPP 11 had a key to sign packages which had an expiration set for 2 years from creation. Unfortunately, this means it expired before the new version came out. You can update the key with the following command: <span class="pa2 code blue f6">curl -L https://packages.crunchbangplusplus.org/cbpp11-2.key | sudo apt-key add -</span></p>
-    <h3 class="fw5">Where are the direct downloads?</h3>
-    <p class="pl4">All of the older images will be provided as direct downloads. New images will be published as direct downloads once the torrents reach a self-sufficient point.</p>
-    <h3 class="fw5">Will you still be supporting #!++ older releases?</h3>
-    <p class="pl4">Debian continues to issue security updates for ~1 year after a new 'stable' is release. While the older CBPP releases won't be getting any new updates from us, the repos will continue to be available for up to the next year as well.</p>
-    <h3 class="fw5">Is the installer still a netinstall .iso?</h3>
-    <p class="pl4">Nope! All future builds will be based on 'live-build', which will provide a live image, as well as an installer on-disc.</p>
-    <h3 class="fw5">What are the login credentials for the live image?</h3>
-    <p class="pl4">The username and password are both 'live' without the quotes.</p>
-    <h3 class="fw5">Should I use the i686 image, or amd64?</h3>
-    <p class="pl4">These days, there's not much reason to use the i686 image, unless you have a very old PC that doesn't support PAE.</p>
-  </article>
-  <article class="bt b--black-10 black-70 ph3 ph5-l pv4 pv5-ns" id="download">
-    <h2 class="black">Downloads</h2>
-    <div class="flex-l justify-between">
-      <p class="f5 f4-ns fw4 b measure dib-m lh-copy">
-        While older versions will remain available, we suggest the latest 64-bit version.
-      </p>
-      <div class="tc">
-        <div class="flex-l justify-end align-center">
-          <div class="pa4">v11.2</div>
-          <div class="pa3 dib">
-            <a class="w4 f6 f5-ns dib shadow-4 shadow-hover bb b--gray bw1 bg-white gray ph2 ph3-ns pv2 pv3-ns  no-underline" href="https://github.com/CBPP/cbpp/releases/download/v11.2/cbpp-11.2-amd64-20230514.iso">
-              Download <code class="f6 fw4 di">64bit</code>
-            </a>
+    <div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 grid-rows-1 gap-8 text-sm leading-6 text-zinc-300 sm:mt-20 sm:grid-cols-2 xl:mx-0 xl:max-w-none xl:grid-flow-col xl:grid-cols-4">
+      <figure class="col-span-2 hidden sm:block sm:rounded-2xl sm:bg-zinc-700 sm:shadow-lg sm:ring-1 sm:ring-gray-900/5 xl:col-start-2 xl:row-end-1">
+        <blockquote class="p-12 text-xl font-semibold leading-8 tracking-tight">
+          <p>“[Crunchbang++ is] awesome! So, why aren't more people aware of this really good Linux distro? Crunchbang++ is lightweight, fun to use, and well designed..”</p>
+        </blockquote>
+        <figcaption class="flex items-center gap-x-4 border-t border-gray-900/10 px-6 py-4">
+          <div class="flex-auto">
+            <div class="font-semibold">Learn Linux TV</div>
+            <div class="text-white"><a class="hover:text-zinc-400 underline" href="https://youtu.be/jrP2I4v1U-M">Linux Distro Review: Crunchbang++ 11</a></div>
           </div>
-          <div class="pa3 dib">
-            <a class="w4 f6 f5-ns dib shadow-4 shadow-hover bb b--light-gray bw1 bg-white gray ph2 ph3-ns pv2 pv3-ns  no-underline" href="https://github.com/CBPP/cbpp/releases/download/v11.2/cbpp-11.2-i386-20230514.iso">
-              Download <code class="f6 fw4 di">32bit(686)</code>
-            </a>
-          </div>
-        </div>
-        <div class="flex-l justify-end align-center">
-          <div class="pa4">v10<span class="black-30 f6">&nbsp;Deprecated</span></div>
-          <div class="pa3 dib">
-            <a class="w4 f6 f5-ns dib shadow-4 shadow-hover bb b--gray bw1 bg-white gray ph2 ph3-ns pv2 pv3-ns  no-underline" href="https://github.com/CBPP/cbpp10-amd64/releases/download/v10.1/cbpp-10.1-amd64-20190713.iso">
-              Download <code class="f6 fw4 di">64bit</code>
-            </a>
-          </div>
-          <div class="pa3 dib">
-            <a class="w4 f6 f5-ns dib shadow-4 shadow-hover bb b--light-gray bw1 bg-white gray ph2 ph3-ns pv2 pv3-ns  no-underline" href="https://github.com/CBPP/cbpp10-686/releases/download/v10.1/cbpp-10.1-i686-20190713.iso">
-              Download <code class="f6 fw4 di">32bit(686)</code>
-            </a>
-          </div>
-        </div>
-        <div class="flex-l justify-end align-center">
-          <div class="pa4">v9<span class="black-30 f6">&nbsp;Deprecated</span></div>
-          <div class="pa3 dib">
-            <a class="w4 f6 f5-ns dib shadow-4 shadow-hover bb b--gray bw1 bg-white gray ph2 ph3-ns pv2 pv3-ns  no-underline" href="https://github.com/CBPP/cbpp9-amd64/releases/download/v9.0/cbpp-9.0-amd64-20170621.iso">
-              Download <code class="f6 fw4 di">64bit</code>
-            </a>
-          </div>
-          <div class="pa3 dib">
-            <a class="w4 f6 f5-ns dib shadow-4 shadow-hover bb b--light-gray bw1 bg-white gray ph2 ph3-ns pv2 pv3-ns  no-underline" href="https://github.com/CBPP/cbpp9-586/releases/download/v9.0/cbpp-9.0-i386-20170621.iso">
-              Download <code class="f6 fw4 di">32bit(686)</code>
-            </a>
-          </div>
-        </div>
-        <div class="flex-l justify-end align-center">
-          <div class="pa4"> v8<span class="black-30 f6">&nbsp;Deprecated</span></div>
-          <div class="pa3 dib">
-            <a class="w4 f6 f5-ns dib shadow-4 shadow-hover bb b--gray bw1 bg-white gray ph2 ph3-ns pv2 pv3-ns  no-underline" href="https://github.com/CBPP/cbpp/releases/download/v1.0-amd64/cbpp-1.0-amd64-20150428.iso">
-              Download <code class="f6 fw4 di">64bit</code>
-            </a>
-          </div>
-          <div class="pa3 dib">
-            <a class="w4 f6 f5-ns dib shadow-4 shadow-hover bb b--light-gray bw1 bg-white gray ph2 ph3-ns pv2 pv3-ns  no-underline" href="https://github.com/CBPP/cbpp/releases/download/v1.0-i486/cbpp-1.0-i386-20150428.iso">
-              Download <code class="f6 fw4 di">32bit(686)</code>
-            </a>
-          </div>
+         <a href="https://www.learnlinux.tv">
+          <img class="h-10 w-auto flex-none" src="/images/cropped-logo_geen_white-300x267.png" alt="">
+         </a>
+        </figcaption>
+      </figure>
+      <div class="space-y-8 xl:contents xl:space-y-0">
+        <div class="space-y-8 xl:row-span-2">
+          <figure class="rounded-2xl bg-zinc-700 p-6 shadow-lg ring-1 ring-gray-900/5">
+            <blockquote class="text-zinc-300">
+              <p>“I've used #!++ as my daily driver for coding for about a year now. It has never failed me as far as stability, and its small footprint makes it an absolute breeze to use on older hardware. The community is super-friendly, and is always welcome to discussions or questions...”</p>
+            </blockquote>
+            <figcaption class="mt-6 flex items-center gap-x-4">
+              <div>
+                <div class="text-gray-100">
+                  <a href="https://distrowatch.com/dwres.php?resource=ratings&distro=cbpp">Distrowatch user</a>
+                </div>
+              </div>
+            </figcaption>
+          </figure>
+
+          <!-- More testimonials... -->
         </div>
       </div>
-    </div>
-    <h3 class="f4 tc">MD5 Sums</h3>
-    <div class="overflow-x-scroll overflow-auto-l">
-      <table class="center">
-        <thead>
-          <tr >
-            <th class="fw5">OS</th>
-            <th class="fw5">64bit</th>
-            <th class="fw5">32bit</th>
-          </tr>
-        </thead>
-        <tr class="bg-white">
-          <td class="pa2">v11.2 - Bullseye</td>
-          <td class="pa2 code blue f6">4559787c1473f04bc3aec8023be49b15</td>
-          <td class="pa2 code blue f6">afb5f596f53d26a76fec8c121ebcedf7</td>
-        </tr>
-        <tr class="bg-white">
-          <td class="pa2">v10 - Buster</td>
-          <td class="pa2 code blue f6">0fdea701b5709a4f3c79f60da3c1b0f7</td>
-          <td class="pa2 code blue f6">c59549231f0fc0e85bc4f6ba111f5e01</td>
-        </tr>
-        <tr class="bg-white">
-          <td class="pa2">v9 - Stretch</td>
-          <td class="pa2 code blue f6">470c802b688a5a8510c1caf537c90ede</td>
-          <td class="pa2 code blue f6">d2a7cf74c27845ea5c3593214ec65eaa</td>
-        </tr>
-        <tr class="bg-white">
-          <td class="pa2">v8 - Jessie</td>
-          <td class="pa2 code blue f6">6d5897245803ef8813674affd499a381</td>
-          <td class="pa2 code blue f6">89ea83aa77f47c679c6fa9ea23cb3d83</td>
-        </tr>
-      </table>
-    </div>
-  </article>
-</main>
-<footer class="bt b--black-10 black-70 ph3 ph5-l pv4 pv5-ns bg-white">
-  <div class="flex-l justify-around tc tl-l w-100">
-    <div class="mb5 mb0-l w4 center mh0-l">
-      <a href="https://debian.org" class="center w3 db"><img src="images/openlogo-nd.svg" alt="Debian Logo"></a>
-    </div>
-    <div class="mb0-l w4 center mh0-l">
-      <a href="https://www.digitalocean.com/?refcode=fa0d7b3cdac5&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="images/DO_Powered_by_Badge_black.png" alt="DigitalOcean Referral Badge" /></a>
-    </div>
-    <div class="w4 center mh0-l">
-      © <span id="year">2019</span> <a href="http://wtfpl.net" class="link black-30 dim">WTFPL</a>.<br>
-      Built on <a href="http://debian.org" class="link black-30 dim">Debian</a><br>
-      Debian is a registered <a href="https://www.debian.org/trademark" class="link black-30 dim">trademark</a> of <a href="http://www.spi-inc.org/" class="link black-30 dim">Software in the Public Interest, Inc.</a>
+      <div class="space-y-8 xl:contents xl:space-y-0">
+        <div class="space-y-8 xl:row-start-1">
+
+          <!-- More testimonials... -->
+        </div>
+        <div class="space-y-8 xl:row-span-2">
+          <figure class="rounded-2xl bg-zinc-700 p-6 shadow-lg ring-1 ring-gray-900/5">
+            <blockquote class="text-gray-300">
+              <p>“Stable and FAST with a great and friendly community. #!++ is Just perfect for my underpowered computer, I'd even use it on a high spec computer, that's how good #!++ is. This distribution stopped my chronic distro hopping journey...”</p>
+            </blockquote>
+            <figcaption class="mt-6 flex items-center gap-x-4">
+              <div>
+                <div class="text-gray-100">
+                  <a href="https://distrowatch.com/dwres.php?resource=ratings&distro=cbpp">Distrowatch user</a>
+                </div>
+              </div>
+            </figcaption>
+          </figure>
+
+          <!-- More testimonials... -->
+        </div>
+      </div>
     </div>
   </div>
-</footer>
-</body>
+</div>
+      
+				
+      	<!-- FOOTER -->
+	      <footer class="text-white">
+	         <div class="mx-auto max-w-7xl px-6 py-12 md:flex md:items-center md:justify-between lg:px-8">
+	            <div class="flex justify-center space-x-6 md:order-2">
+	               <a href="#" class="text-zinc-400 hover:text-zinc-500">
+	               <span class="sr-only">Debian</span>
+	               <img src="images/openlogo-nd.svg" alt="Debian Logo" class="h-6 w-6 brightness-200">
+	               </a>
+	            </div>
+	            <div class="mt-8 md:order-1 md:mt-0">
+	               <p class="text-center text-xs leading-5 text-zinc-400">
+	                  &copy; <span id="current-year">2023</span> <a class="underline" href="http://wtfpl.net/">WTFPL</a>.
+	                  Built on <a class="underline" href="http://debian.org/">Debian</a>.
+	                  Debian is a registered <a class="underline" href="https://www.debian.org/trademark">trademark</a> of <a class="underline" href="http://www.spi-inc.org/">Software in the Public Interest, Inc.</a>
+	               </p>
+	            </div>
+	         </div>
+	      </footer>
+
+
+      <div class="relative z-10 pointer-events-none" aria-labelledby="modal-title" role="dialog" aria-modal="true" id="overlay">
+        <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity ease-out duration-200 opacity-0" id="mask"></div>
+        <div class="fixed inset-0 z-10 overflow-y-auto">
+          <div class="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0">
+            <div class="relative transform overflow-hidden rounded-lg px-4 pb-4 pt-5 text-left transition-all sm:my-8 sm:w-full sm:p-6 opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95" id="modal-container">
+               <div id="modal-content">
+                  
+               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script>
+         const overlay = document.getElementById('overlay');
+         const mask = document.getElementById('mask');
+         const modalContent = document.getElementById('modal-content');
+         const modalContainer = document.getElementById('modal-container');
+
+
+         overlay.addEventListener('click', (evt) => {
+            evt.preventDefault();
+            mask.classList.add('opacity-0');
+            modalContainer.classList.add('opacity-0','translate-y-4', 'sm:translate-y-0', 'sm:scale-95')
+            setTimeout(() => {
+               overlay.remove();
+            }, 250);
+         });
+
+         overlay.classList.remove('pointer-events-none');
+         overlay.remove();
+
+
+         
+         function lightBox(imgSrc) {
+            modalContent.innerHTML = `<img src="${imgSrc}" />`
+            document.body.append(overlay);
+            setTimeout(() => {
+               mask.classList.remove('opacity-0');
+               modalContainer.classList.remove('opacity-0','translate-y-4', 'sm:translate-y-0', 'sm:scale-95')
+            }, 0);
+         }
+      </script>
+   </body>
 </html>

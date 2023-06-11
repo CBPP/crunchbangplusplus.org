@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <title>
+    Crunchbangplusplus | Debian Based Minimal Linux Distro
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/tachyons.min.css">
+  <script defer type="text/javascript" src="javascript/custom.js"></script>
+</head>
+<body class="bg-near-white avenir">
+  <header class="w-100 pa3 ph5-ns bg-dark-gray">
+    <div class="db dt-ns mw9 center w-100">
+      <div class="db dtc-ns v-mid tl w5">
+        <a href="/" class="dib f5 f4-ns mt0 mb1 link white-70" title="Home">
+          Crunchbangplusplus <small class="f6 mt2 mt3-ns pr2 white-30 fw2">11</small>
+        </a>
+      </div>
+      <nav class="db dtc-ns v-mid w-100 tl tr-ns mt2 mt0-ns">
+        <a title="Download" href="#download" class="f6  hover-blue link white-70 mr2 mr3-m mr4-l dib">
+          Download
+        </a>
+        <a title="Community" href="https://www.reddit.com/r/crunchbangplusplus/"
+        class="f6  hover-blue link white-70 mr2 mr3-m mr4-l dib">
+        Community
+      </a>
+      <a title="Github" href="https://github.com/CBPP/cbpp"
+      class="f6  hover-blue link white-70 mr2 mr3-m mr4-l dib">
+      Github
+    </a>
+  </nav>
+</div>
+</header> <!-- END OF NAVIGATION -->
+<main class="w-100 bt b--black-10">
+  <section class="ph3 ph5-l w-100 b g-transparent pv3 mb4 mb5-ns bb b--black-10 overflow-auto bg-white">
+    <div class="nowrap mw9 center">
+      <a title="Getting Started" href="#screenshots" class="pv1-ns f6 fw4 dim link black-70 mr2 mr3-m mr4-l dib">
+        Screenshots
+      </a>
+      <a title="Features" href="#features" class="pv1-ns f6 fw4 dim link black-70 mr1 mr3-m mr4-l dib">
+        Features
+      </a>
+      <a title="Testimonials" href="#faq" class="pv1-ns f6 fw4 dim link black-70 mr1 mr3-m mr4-l dib">
+        FAQ
+      </a>
+    </div>
+  </section>
+  <section class="ph3 ph5-l cf mw9 center tc-m mb5-ns mb4">
+    <div class="pb3 pb4-ns pt4-l pt5-ns mt4-l black-70 fl-l w-50-l">
+      <h1 class="f4  f1-ns lh-title measure mt0">
+        #!++ with debian 11
+      </h1>
+      <p class="f5 f4-ns fw4 b measure dib-m lh-copy">
+        The classic minimal crunchbang feel, now with debian 11 bullseye.
+      </p>
+    </div>
+    <div class="fl-l w-50-l tl tc-ns">
+      <img src="images/cbppanother.png" width="360" id="showcase-image" alt="Openbox view" class="shadow-4 js-lightbox pointer"/>
+      <p class="pt3 ma0">
+        <a class="mb3 f6 f5-ns  dib shadow-4 shadow-hover bb b--gray bw1 bg-white gray ph2 ph3-ns pv2 pv3-ns  no-underline" href="https://github.com/CBPP/cbpp/releases/download/v11.2/cbpp-11.2-amd64-20230514.iso">
+          Download <code class="f6 fw4 di">64bit</code>
+        </a>&nbsp;&nbsp;
+        <a class="f6 f5-ns  dib shadow-4 shadow-hover bb b--light-gray bw1 bg-white gray ph2 ph3-ns pv2 pv3-ns  no-underline" href="https://github.com/CBPP/cbpp/releases/download/v11.2/cbpp-11.2-i386-20230514.iso">
+          Download <code class="f6 fw4 di">32bit(686)</code>
+        </a>
+      </p>
+    </div>
+  </section>
+  <article class="bt b--black-10 bg-white black-70 ph3 ph5-l pv4 pv5-ns" id="screenshots">
+    <h2 class="">Screenshots</h2>
+    <div class="flex justify-around">
+      <div class="w-100 w-50-m w-25-l pa3">
+        <img src="images/cbppanother.png" alt="Frank Ocean Blonde Album Cover" class="w-100 db outline black-10 db link dim tc js-lightbox pointer">
+        <p class="mt2 f6 lh-copy">
+          Openbox View
+        </p>
+      </div>
+      <div class="w-100 w-50-m w-25-l pa3">
+        <img src="images/cbppviewfolders.png" alt="Frank Ocean Blonde Album Cover" class="w-100 db outline black-10 db link dim tc js-lightbox pointer">
+        <p class="mt2 f6 lh-copy">
+          Folder View
+        </p>
+      </div>
+    </div>
+  </article>
+  <article class="bt b--black-10 black-70 ph3 ph5-l pv4 pv5-ns" id="features">
+    <h2 class=" black">Features</h2>
+    <h3 class="fw5">New to #!++</h3>
+    <ul class="list pl4">
+      <li class="pt2 pb2">Python 3 rewrites of all Python 2 scripts, including new packages for Openbox supporting apps.</li>
+      <li class="pt2 pb2">Rebased CBPP icon theme on the latest Faenza set.</li>
+      <li class="pt2 pb2">Many bugfixes were applied thanks to the diligence of the community!</li>
+    </ul>
+    <h3 class="fw5">New to debian 11</h3>
+    <ul class="list pl4">
+      <li class="pt2 pb2">Linux 5.10</li>
+      <li class="pt2 pb2">Merged /usr</li>
+    </ul>
+  </article>
+  <article class="bt b--black-10 black-70 ph3 ph5-l pv4 pv5-ns bg-white" id="faq">
+    <h2 class=" black">FAQ</h2>
+    <h3 class="fw5">Apt is reporting an expired key signature <span class="pa2 code red f6">"The following signatures were invalid: EXPKEYSIG E93A89B6F328DC72"</span></h3>
+    <p class="pl4">CBPP 11 had a key to sign packages which had an expiration set for 2 years from creation. Unfortunately, this means it expired before the new version came out. You can update the key with the following command: <span class="pa2 code blue f6">curl -L https://packages.crunchbangplusplus.org/cbpp11-2.key | sudo apt-key add -</span></p>
+    <h3 class="fw5">Where are the direct downloads?</h3>
+    <p class="pl4">All of the older images will be provided as direct downloads. New images will be published as direct downloads once the torrents reach a self-sufficient point.</p>
+    <h3 class="fw5">Will you still be supporting #!++ older releases?</h3>
+    <p class="pl4">Debian continues to issue security updates for ~1 year after a new 'stable' is release. While the older CBPP releases won't be getting any new updates from us, the repos will continue to be available for up to the next year as well.</p>
+    <h3 class="fw5">Is the installer still a netinstall .iso?</h3>
+    <p class="pl4">Nope! All future builds will be based on 'live-build', which will provide a live image, as well as an installer on-disc.</p>
+    <h3 class="fw5">What are the login credentials for the live image?</h3>
+    <p class="pl4">The username and password are both 'live' without the quotes.</p>
+    <h3 class="fw5">Should I use the i686 image, or amd64?</h3>
+    <p class="pl4">These days, there's not much reason to use the i686 image, unless you have a very old PC that doesn't support PAE.</p>
+  </article>
+  <article class="bt b--black-10 black-70 ph3 ph5-l pv4 pv5-ns" id="download">
+    <h2 class="black">Downloads</h2>
+    <div class="flex-l justify-between">
+      <p class="f5 f4-ns fw4 b measure dib-m lh-copy">
+        While older versions will remain available, we suggest the latest 64-bit version.
+      </p>
+      <div class="tc">
+        <div class="flex-l justify-end align-center">
+          <div class="pa4">v11.2</div>
+          <div class="pa3 dib">
+            <a class="w4 f6 f5-ns dib shadow-4 shadow-hover bb b--gray bw1 bg-white gray ph2 ph3-ns pv2 pv3-ns  no-underline" href="https://github.com/CBPP/cbpp/releases/download/v11.2/cbpp-11.2-amd64-20230514.iso">
+              Download <code class="f6 fw4 di">64bit</code>
+            </a>
+          </div>
+          <div class="pa3 dib">
+            <a class="w4 f6 f5-ns dib shadow-4 shadow-hover bb b--light-gray bw1 bg-white gray ph2 ph3-ns pv2 pv3-ns  no-underline" href="https://github.com/CBPP/cbpp/releases/download/v11.2/cbpp-11.2-i386-20230514.iso">
+              Download <code class="f6 fw4 di">32bit(686)</code>
+            </a>
+          </div>
+        </div>
+        <div class="flex-l justify-end align-center">
+          <div class="pa4">v10<span class="black-30 f6">&nbsp;Deprecated</span></div>
+          <div class="pa3 dib">
+            <a class="w4 f6 f5-ns dib shadow-4 shadow-hover bb b--gray bw1 bg-white gray ph2 ph3-ns pv2 pv3-ns  no-underline" href="https://github.com/CBPP/cbpp10-amd64/releases/download/v10.1/cbpp-10.1-amd64-20190713.iso">
+              Download <code class="f6 fw4 di">64bit</code>
+            </a>
+          </div>
+          <div class="pa3 dib">
+            <a class="w4 f6 f5-ns dib shadow-4 shadow-hover bb b--light-gray bw1 bg-white gray ph2 ph3-ns pv2 pv3-ns  no-underline" href="https://github.com/CBPP/cbpp10-686/releases/download/v10.1/cbpp-10.1-i686-20190713.iso">
+              Download <code class="f6 fw4 di">32bit(686)</code>
+            </a>
+          </div>
+        </div>
+        <div class="flex-l justify-end align-center">
+          <div class="pa4">v9<span class="black-30 f6">&nbsp;Deprecated</span></div>
+          <div class="pa3 dib">
+            <a class="w4 f6 f5-ns dib shadow-4 shadow-hover bb b--gray bw1 bg-white gray ph2 ph3-ns pv2 pv3-ns  no-underline" href="https://github.com/CBPP/cbpp9-amd64/releases/download/v9.0/cbpp-9.0-amd64-20170621.iso">
+              Download <code class="f6 fw4 di">64bit</code>
+            </a>
+          </div>
+          <div class="pa3 dib">
+            <a class="w4 f6 f5-ns dib shadow-4 shadow-hover bb b--light-gray bw1 bg-white gray ph2 ph3-ns pv2 pv3-ns  no-underline" href="https://github.com/CBPP/cbpp9-586/releases/download/v9.0/cbpp-9.0-i386-20170621.iso">
+              Download <code class="f6 fw4 di">32bit(686)</code>
+            </a>
+          </div>
+        </div>
+        <div class="flex-l justify-end align-center">
+          <div class="pa4"> v8<span class="black-30 f6">&nbsp;Deprecated</span></div>
+          <div class="pa3 dib">
+            <a class="w4 f6 f5-ns dib shadow-4 shadow-hover bb b--gray bw1 bg-white gray ph2 ph3-ns pv2 pv3-ns  no-underline" href="https://github.com/CBPP/cbpp/releases/download/v1.0-amd64/cbpp-1.0-amd64-20150428.iso">
+              Download <code class="f6 fw4 di">64bit</code>
+            </a>
+          </div>
+          <div class="pa3 dib">
+            <a class="w4 f6 f5-ns dib shadow-4 shadow-hover bb b--light-gray bw1 bg-white gray ph2 ph3-ns pv2 pv3-ns  no-underline" href="https://github.com/CBPP/cbpp/releases/download/v1.0-i486/cbpp-1.0-i386-20150428.iso">
+              Download <code class="f6 fw4 di">32bit(686)</code>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h3 class="f4 tc">MD5 Sums</h3>
+    <div class="overflow-x-scroll overflow-auto-l">
+      <table class="center">
+        <thead>
+          <tr >
+            <th class="fw5">OS</th>
+            <th class="fw5">64bit</th>
+            <th class="fw5">32bit</th>
+          </tr>
+        </thead>
+        <tr class="bg-white">
+          <td class="pa2">v11.2 - Bullseye</td>
+          <td class="pa2 code blue f6">4559787c1473f04bc3aec8023be49b15</td>
+          <td class="pa2 code blue f6">afb5f596f53d26a76fec8c121ebcedf7</td>
+        </tr>
+        <tr class="bg-white">
+          <td class="pa2">v10 - Buster</td>
+          <td class="pa2 code blue f6">0fdea701b5709a4f3c79f60da3c1b0f7</td>
+          <td class="pa2 code blue f6">c59549231f0fc0e85bc4f6ba111f5e01</td>
+        </tr>
+        <tr class="bg-white">
+          <td class="pa2">v9 - Stretch</td>
+          <td class="pa2 code blue f6">470c802b688a5a8510c1caf537c90ede</td>
+          <td class="pa2 code blue f6">d2a7cf74c27845ea5c3593214ec65eaa</td>
+        </tr>
+        <tr class="bg-white">
+          <td class="pa2">v8 - Jessie</td>
+          <td class="pa2 code blue f6">6d5897245803ef8813674affd499a381</td>
+          <td class="pa2 code blue f6">89ea83aa77f47c679c6fa9ea23cb3d83</td>
+        </tr>
+      </table>
+    </div>
+  </article>
+</main>
+<footer class="bt b--black-10 black-70 ph3 ph5-l pv4 pv5-ns bg-white">
+  <div class="flex-l justify-around tc tl-l w-100">
+    <div class="mb5 mb0-l w4 center mh0-l">
+      <a href="https://debian.org" class="center w3 db"><img src="images/openlogo-nd.svg" alt="Debian Logo"></a>
+    </div>
+    <div class="mb0-l w4 center mh0-l">
+      <a href="https://www.digitalocean.com/?refcode=fa0d7b3cdac5&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="images/DO_Powered_by_Badge_black.png" alt="DigitalOcean Referral Badge" /></a>
+    </div>
+    <div class="w4 center mh0-l">
+      © <span id="year">2019</span> <a href="http://wtfpl.net" class="link black-30 dim">WTFPL</a>.<br>
+      Built on <a href="http://debian.org" class="link black-30 dim">Debian</a><br>
+      Debian is a registered <a href="https://www.debian.org/trademark" class="link black-30 dim">trademark</a> of <a href="http://www.spi-inc.org/" class="link black-30 dim">Software in the Public Interest, Inc.</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
