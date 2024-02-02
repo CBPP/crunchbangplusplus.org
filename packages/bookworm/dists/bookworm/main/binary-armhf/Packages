@@ -1,21 +1,21 @@
 Package: cbpp-configs
-Version: 12.0
+Version: 12.1
 Architecture: all
 Maintainer: Ben Young <computermouth@crunchbangplusplus.org>
 Installed-Size: 1729
 Homepage: https://crunchbangplusplus.org/
 Priority: extra
 Section: misc
-Filename: pool/main/c/cbpp-configs/cbpp-configs_12.0_all.deb
-Size: 1572496
-SHA256: 38b2a6980446b7f30280887abdc938b0f5eb66a6338116a127c84df6f91f2023
-SHA1: a30e179b2f8f494befe0a7da7d3eba512607e314
-MD5sum: 17fb845f4fee1be13145668031ee541f
+Filename: pool/main/c/cbpp-configs/cbpp-configs_12.1_all.deb
+Size: 1572636
+SHA256: c56585bf4a934db077baa28a29e0374a6548305c6c4b8151eb6f189b4a864acc
+SHA1: 879493e3fa58b898a9f04c23330108145636bd83
+MD5sum: a4a732272c503473df4a979ca901f33f
 Description: config files for CBPP
  Various configuration files for use with CBPP.
 
 Package: cbpp-exit
-Version: 12.0
+Version: 12.1
 Architecture: all
 Maintainer: Ben Young <computermouth@crunchbangplusplus.org>
 Installed-Size: 12
@@ -23,11 +23,11 @@ Depends: python3-gi
 Homepage: https://crunchbangplusplus.org
 Priority: extra
 Section: misc
-Filename: pool/main/c/cbpp-exit/cbpp-exit_12.0_all.deb
-Size: 2580
-SHA256: 0714d6094b5b1d03236b296025af1220c75f5106684b8910a6eee5bcfda37a52
-SHA1: 2b44b7d0f5d10270ea5cd94481d2ec0da7385767
-MD5sum: da01619d10db294d8ce139e6706debaf
+Filename: pool/main/c/cbpp-exit/cbpp-exit_12.1_all.deb
+Size: 2672
+SHA256: 614b38c28ff0b8deb4abed17dcf5275971b122169cfdb875de8ea2fe02c8fbfe
+SHA1: dad87672a4a1935b1561aac11e62a6c6ee65bf2d
+MD5sum: 0768fe048cb341bfc28fcf9f572100a7
 Description: CrunchBangPlusPlus logout script.
  GUI logout/shutdown/restart/suspend script.
 

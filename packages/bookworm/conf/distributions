@@ -1,4 +1,4 @@
 Codename: bookworm
 Components: main
-Architectures: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x
+Architectures: armhf arm64 amd64 i386
 SignWith: 6B849A6E79E6BA3A0EFED574CFDE326A2CC59B7C
