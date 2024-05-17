@@ -1,16 +1,16 @@
 Package: cbpp-configs
-Version: 12.1
+Version: 12.2
 Architecture: all
 Maintainer: Ben Young <computermouth@crunchbangplusplus.org>
-Installed-Size: 1729
+Installed-Size: 1730
 Homepage: https://crunchbangplusplus.org/
 Priority: extra
 Section: misc
-Filename: pool/main/c/cbpp-configs/cbpp-configs_12.1_all.deb
-Size: 1572636
-SHA256: c56585bf4a934db077baa28a29e0374a6548305c6c4b8151eb6f189b4a864acc
-SHA1: 879493e3fa58b898a9f04c23330108145636bd83
-MD5sum: a4a732272c503473df4a979ca901f33f
+Filename: pool/main/c/cbpp-configs/cbpp-configs_12.2_all.deb
+Size: 1572956
+SHA256: 4e4e6c24dbbe91ab342273d43ca57bcc30ab37abb8c2cffc62834cf24d41f01b
+SHA1: 5c4427ab70df2cb22be73e6459ef53ada86edaab
+MD5sum: 4dd506907db19da471bf0dca6c84ab9c
 Description: config files for CBPP
  Various configuration files for use with CBPP.
 
