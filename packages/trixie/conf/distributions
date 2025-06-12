@@ -1,4 +1,4 @@
 Codename: trixie
 Components: main
-Architectures: armhf
+Architectures: amd64
 SignWith: D21161DAA78B0EFD90BCE50591FEE1BA128C20FA
