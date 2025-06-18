@@ -2,32 +2,32 @@
 Hash: SHA512
 
 Codename: trixie
-Date: Thu, 12 Jun 2025 21:51:58 UTC
+Date: Wed, 18 Jun 2025 01:52:20 UTC
 Architectures: amd64
 Components: main
 MD5Sum:
- c78a222df6925ec56d99ad2a35350f55 12126 main/binary-amd64/Packages
- f77b36ff7a2130ca1f0449586d3b592c 3997 main/binary-amd64/Packages.gz
+ b94ec3a1d08e78fc1bffa229338acb72 12127 main/binary-amd64/Packages
+ 80298090382d88daf56a556f097bdfde 3999 main/binary-amd64/Packages.gz
  063287201b2354699acfe229a752201d 36 main/binary-amd64/Release
 SHA1:
- e9c1bf624fb6c06b910b263531874cb0545d6bce 12126 main/binary-amd64/Packages
- 0cfa2b732b2a43ce57785cb96b7fecd5e026affd 3997 main/binary-amd64/Packages.gz
+ cab990b8ce5ba05f91a67c06e792c047ef2c3b75 12127 main/binary-amd64/Packages
+ 4e8151132060760d2b371c2c1a47893fa903e20b 3999 main/binary-amd64/Packages.gz
  f9082edea14092794f38390390e06abf8a922f7d 36 main/binary-amd64/Release
 SHA256:
- b07f340947bc678b17d4586e81b89d5ed9c057b59de3ad7fd959846aa3e91f35 12126 main/binary-amd64/Packages
- 022615421d5e78ca8a26c5e88cd3822fa288be9c2607a5e371083cc24f4bae6a 3997 main/binary-amd64/Packages.gz
+ 362b91e42e99471de97175224d08975d32757f329624158b2a00ca8db1ffbb6c 12127 main/binary-amd64/Packages
+ 7d6e2292c54caac95fe57da0fbc07a9ed91db8dbc08d596cedf52360d351681d 3999 main/binary-amd64/Packages.gz
  f4aafa353a338baedf9e98523c13d7ffeda979ec3cf745f9fad977dd770595c8 36 main/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEE0hFh2qeLDv2QvOUFkf7huhKMIPoFAmhLTAIACgkQkf7huhKM
-IPoeBgv/cTw4fjQwiGOusHpfd2pNrPga8tYuFzgoXKzQSDTjMSHaU82VY0bMG+PB
-LyBmrnWTXdOgWQRpgGTKUKn1LOok2C4hQyixMZmriBCr5EO6PjyjBiP9qCLWeFP2
-yEkM+KQMr5XzKMb3oRHK0wFC1L+OxR7DZaXwdDtA4mwcah7j+irTOzDvFfrQ4qU6
-45CXWyq7jWeT8yFUUn8j87ZVt0uqJWvrdhEzwaYakjyJm3vPi2+XBqDjlorwSSXK
-dzwbdoHBrdSN/qQjDgh71IEWCCgzH9I88XYL8hDhtmU0qpazdO/dJEGEq8X5Orx4
-G0tLRbVVfw1cCaOO0b5PcfNw+SaBcxP1KbRG05sqPJ1/+tBsId23lYWCVh9pygKB
-Pn/u583WlcdvMJywaG6ZgRBfWsJp2IX0NnBJA6ybn3IH/WCYN1/rCsWp6c80FtKi
-okT9hhKebG+ZME6q6PiUsFi6fvNgGW17Bdr3NoEBqi8585mz5QimxVwiXUKXX6nV
-1IuJG/hc
-=k3j7
+iQGzBAEBCgAdFiEE0hFh2qeLDv2QvOUFkf7huhKMIPoFAmhSG9QACgkQkf7huhKM
+IPoH4gv+Pb19aflQIt089XhlyUr2hh1hLIdlOVB3GDTajqQN0tl9QE2aWSgo6Pqk
+f+fpo9uhUT+RHOY228xWiFZkH6XC01745yEKXYHnCz8hwDNfTGXFQptazcwidRrq
+kvu+imDGCrremyaNjDwRKsf+b/GoWAIpuhuwyO3/BXb/oMZEIwUX+KacIayTs+bB
+kB1CcAzORnaVFMhCiFHFCJf7oxMMmib8fIR828L6shNZSs8eKc9JBkBiyyebSA2K
+DXqCbV5SiG3rea1qzm1XG9iNLG6kVAcU/8P1ypuj4Kedlk6qcCF2rzZRQcLZdut8
+QiuwskM5aEbwZlzNwQORCotipt2PNriy3+/n3B4g0JXnfNaIdNHZG9ozg0Wd5SZu
+8vH0p2166RgVKk59oiccB2tBYQYOml9CFAJCc37jBNcer7QZz1+ziXaXwT3JeIpa
+rVXHbfMBow8rO5doBBmx00SaezO+ufhTU6AcsU92VuopjcJ1FJ+oaTtW+5PUSF+c
+lO1vdE5k
+=BOQK
 -----END PGP SIGNATURE-----

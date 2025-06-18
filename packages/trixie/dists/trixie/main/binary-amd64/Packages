@@ -210,16 +210,16 @@ Package: cbpp-pipemenus
 Version: 13.0
 Architecture: all
 Maintainer: Ben Young <computermouth@crunchbangplusplus.org>
-Installed-Size: 41
+Installed-Size: 43
 Depends: openbox, zenity, terminator, wget, compton, curl, tar, python3, python3-paramiko, mesa-utils
 Homepage: https://crunchbangplusplus.org/
 Priority: extra
 Section: misc
 Filename: pool/main/c/cbpp-pipemenus/cbpp-pipemenus_13.0_all.deb
-Size: 9984
-SHA256: 40e537e06c769ae7cdcadd70f0f5ef63e77ba508e68b2704c1f08687e877ec83
-SHA1: 4f4cb50a5d530f21af0957f18304be43223116bd
-MD5sum: afc4c2a2e9579f873a9d55724c114616
+Size: 10324
+SHA256: f88dd138ba2e06f752b6da95defedaa1af0da30e37accf5c5743267a47355c1c
+SHA1: c0c00bd615539c751c9312e63b2b96c594d27c38
+MD5sum: d43c65b5a2f76491a10ff23c973ac9af
 Description: various Openbox pipemenus.
  Contains various Openbox pipemenus for use with
  CBPP.

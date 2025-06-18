@@ -1,16 +1,16 @@
 Codename: trixie
-Date: Thu, 12 Jun 2025 21:51:58 UTC
+Date: Wed, 18 Jun 2025 01:52:20 UTC
 Architectures: amd64
 Components: main
 MD5Sum:
- c78a222df6925ec56d99ad2a35350f55 12126 main/binary-amd64/Packages
- f77b36ff7a2130ca1f0449586d3b592c 3997 main/binary-amd64/Packages.gz
+ b94ec3a1d08e78fc1bffa229338acb72 12127 main/binary-amd64/Packages
+ 80298090382d88daf56a556f097bdfde 3999 main/binary-amd64/Packages.gz
  063287201b2354699acfe229a752201d 36 main/binary-amd64/Release
 SHA1:
- e9c1bf624fb6c06b910b263531874cb0545d6bce 12126 main/binary-amd64/Packages
- 0cfa2b732b2a43ce57785cb96b7fecd5e026affd 3997 main/binary-amd64/Packages.gz
+ cab990b8ce5ba05f91a67c06e792c047ef2c3b75 12127 main/binary-amd64/Packages
+ 4e8151132060760d2b371c2c1a47893fa903e20b 3999 main/binary-amd64/Packages.gz
  f9082edea14092794f38390390e06abf8a922f7d 36 main/binary-amd64/Release
 SHA256:
- b07f340947bc678b17d4586e81b89d5ed9c057b59de3ad7fd959846aa3e91f35 12126 main/binary-amd64/Packages
- 022615421d5e78ca8a26c5e88cd3822fa288be9c2607a5e371083cc24f4bae6a 3997 main/binary-amd64/Packages.gz
+ 362b91e42e99471de97175224d08975d32757f329624158b2a00ca8db1ffbb6c 12127 main/binary-amd64/Packages
+ 7d6e2292c54caac95fe57da0fbc07a9ed91db8dbc08d596cedf52360d351681d 3999 main/binary-amd64/Packages.gz
  f4aafa353a338baedf9e98523c13d7ffeda979ec3cf745f9fad977dd770595c8 36 main/binary-amd64/Release
